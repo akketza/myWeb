@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
-body{
+body {
     font-family: 'PT Mono', monospace;
     text-align: center;
     background-color: #FFFBEA;
     text-decoration: none;
 }
-main{
+
+main {
     margin: 300px;
+}
+
+@media screen and (max-width: 900px) {
+    main{
+        margin: 300px 0px 0px 0px;
+    }
+}
+@media screen and (max-width: 720px) {
+    main{
+        margin: 180px 0px 0px 0px;
+    }
 }
